@@ -2,6 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
 
 # C extensions
 *.so
@@ -216,3 +217,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files
+*.csv
+*.zip
+*.parquet
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+
+# Mac system files
+.DS_Store
+.DS_Store?
+**/.DS_Store
